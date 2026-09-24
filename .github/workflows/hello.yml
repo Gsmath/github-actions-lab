@@ -22,8 +22,8 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Run tests
-        run: pytest -q
-
       - name: Run Hello Script
         run: python hello.py
+
+      - name: Run tests
+        run: pytest -q
